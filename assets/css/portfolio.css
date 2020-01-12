@@ -1,0 +1,112 @@
+.header {
+    font-size: 4rem;
+    font-family: 'Varela Round', sans-serif;
+	font-weight:  300;
+    letter-spacing: .2em;
+	color: #7231c7;
+	background-image: -webkit-linear-gradient(92deg, #f82dc5, #3a78fe);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-webkit-animation: hue 10s infinite linear;
+}
+
+@-webkit-keyframes hue {
+from {
+    -webkit-filter: hue-rotate(0deg);
+}
+to {
+    -webkit-filter: hue-rotate(-360deg);
+}
+}
+
+.subtext{
+    font-weight:  100;
+    font-family: 'Varela Round', sans-serif;
+	letter-spacing: .2em;
+	color: #7231c7;
+	background-image: -webkit-linear-gradient(92deg, #f82dc5, #3a78fe);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-webkit-animation: hue 10s infinite linear;
+}
+
+
+@keyframes animatedBackground {
+    from { background-position: 0 -200px; }
+    to { background-position: 100% -200px; }
+}
+@-webkit-keyframes animatedBackground {
+    from { background-position: 0 -200px; }
+    to { background-position: 100% -200px; }
+}
+@-ms-keyframes animatedBackground {
+    from { background-position: 0 -200px; }
+    to { background-position: 100% -200px; }
+}
+@-moz-keyframes animatedBackground {
+    from { background-position: 0 -200px; }
+    to { background-position: 100% -200px; }
+}
+
+#site-title { 
+    
+    font-size:1.75em;
+    font-family: 'Cantarell', sans-serif;
+    font-weight:bold;
+    letter-spacing: .2em;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    text-fill-color: transparent;
+    width: auto; 
+    height: auto;
+  /* first part of image must look like the last or you'll notice the jump*/
+    background-image:
+url(https://www.schemecolor.com/wallpaper?i=34569&mobile);
+    background-position: -1000px 0px;
+    background-repeat: repeat-x;
+
+    animation: animatedBackground 40s linear infinite;
+    -ms-animation: animatedBackground 40s linear infinite;
+    -moz-animation: animatedBackground 40s linear infinite;
+    -webkit-animation: animatedBackground 40s linear infinite;
+}
+
+img{
+    width: 100%;
+    height:auto;
+}
+
+
+nav{
+    letter-spacing: .2em;
+}
+
+.navbar-brand{
+    font-size: .7em;
+    color: rgb(221, 222, 223);
+}
+
+
+h4, h5{
+    text-decoration: none;
+    text-align: center;
+}
+
+.thumbnail-item{
+    display: block;
+    width:75%;
+    height:auto;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.aside{
+    margin: .5em 3em 3em 3em;
+    padding:1em;
+    text-align: center;
+}
