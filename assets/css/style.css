@@ -93,6 +93,9 @@ nav{
 h4, h5{
     text-decoration: none;
     text-align: center;
+    font-family: 'Varela Round', sans-serif;
+    color: rgb(175, 175, 175);
+    font-weight: 300;
 }
 
 .thumbnail-list{
