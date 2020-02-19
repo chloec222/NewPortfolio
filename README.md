@@ -1,13 +1,13 @@
 # FIRST PORTFOLIO
 ### Overview
 - First portfolio
-Link:https://chloec222.github.io/NewPortfolio/
+Link: https://chloec222.github.io/NewPortfolio/
 
 --------------------------------------------------------------------------------------------------------------------------------------
 
 ### PORTFOLIO | *Homepage* |
-![Image of home](/images/port1.png)
+![Image of home](/assets/images/port1.png)
 
 --------------------------------------------------------------------------------------------------------------------------------------
 
-![Image of home](/images/port2.png)
+![Image of home](/assets/images/port2.png)
